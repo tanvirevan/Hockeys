@@ -11,17 +11,64 @@
     <script src="https://kit.fontawesome.com/e8941e5832.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Navber Section Start -->
-    <section>
-        <p>Start Hockeys</p>
-    </section>
-    <!-- Nevber Section End -->
+    <section class="container mx-auto">
+        <!-- Navber Section Start -->
+            <div class="navbar my-[50px]">
+                <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+    
+                    </ul>
+                </div>
+                <a class="btn btn-ghost flex items-center font-extrabold text-[36px] text-[#131318] hover:bg-white">Hockey<span class="text-[#FF4240] font-normal">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-normal text-[16px] text-[#424247]">
+                    <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
 
-    <!-- Hero Section Start -->
-    <section>
-   
+                </ul>
+                </div>
+                <div class="navbar-end">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a class="btn flex items-center rounded-lg bg-[#FF4240] hover:bg-[#FF4240] ml-[24px] font-bold text-[20px] text-[#FFFFFF] text-">Get Ticket</a>
+                </div>
+            </div>
+        <!-- Nevber Section End -->
+
+        <!-- Hero Section Start -->
+            <div>
+                <div class="carousel container">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img src="/resources/Images/1.png" class="w-full rounded-2xl" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-10 bottom-[10px] gap-[16px]">
+                        <a href="#slide2" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❮</a> 
+                        <a href="#slide2" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="/resources/Images/4.png" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-10 bottom-[10px] gap-[16px]">
+                        <a href="#slide1" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❮</a> 
+                        <a href="#slide1" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❯</a>
+                      </div>
+                    </div> 
+                    </div>
+                  </div>
+            </div>
+        <!-- Hero Section End -->
     </section>
-    <!-- Hero Section End -->
 
     <!-- Main Section Start -->
     <main>
