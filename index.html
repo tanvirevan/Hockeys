@@ -11,7 +11,8 @@
     <script src="https://kit.fontawesome.com/e8941e5832.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="container mx-auto">
+    <!-- Navber and Hero Section Start -->
+    <section class="container mx-auto mb-[130px]">
         <!-- Navber Section Start -->
             <div class="navbar my-[50px]">
                 <div class="navbar-start">
@@ -48,33 +49,83 @@
         <!-- Nevber Section End -->
 
         <!-- Hero Section Start -->
-            <div>
+            <div class="relative">
                 <div class="carousel container">
                     <div id="slide1" class="carousel-item relative w-full">
-                      <img src="/resources/Images/1.png" class="w-full rounded-2xl" />
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-10 bottom-[10px] gap-[16px]">
-                        <a href="#slide2" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❮</a> 
-                        <a href="#slide2" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❯</a>
-                      </div>
+                        <img src="/resources/Images/1.png" class="w-full rounded-2xl" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-10 bottom-[10px] gap-[16px]">
+                            <a href="#slide2" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❮</a> 
+                            <a href="#slide2" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❯</a>
+                        </div>
+                        <div class="invisible absolute bg-black  p-[32px] w-[566px] h-[165px] rounded-2xl translate-x-0 bottom-[32px] right-[32px] lg:visible">
+                            <h1 class="font-extrabold text-[24px] text-[#ffffff]">Meet all the heroes from the field</h1>
+                            <p class="font-medium text-[16px] text-[#ffffffab] mt-[10px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
                     </div> 
                     <div id="slide2" class="carousel-item relative w-full">
-                      <img src="/resources/Images/4.png" class="w-full" />
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-10 bottom-[10px] gap-[16px]">
-                        <a href="#slide1" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❮</a> 
-                        <a href="#slide1" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❯</a>
-                      </div>
+                        <img src="/resources/Images/4.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-10 bottom-[10px] gap-[16px]">
+                            <a href="#slide1" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❮</a> 
+                            <a href="#slide1" class="btn btn-circle border-0 bg-black hover:bg-black text-white">❯</a>
+                        </div>
+                        <div class="invisible absolute bg-black  p-[32px] w-[566px] h-[165px] rounded-2xl translate-x-0 bottom-[32px] right-[32px] lg:visible">
+                            <h1 class="font-extrabold text-[24px] text-[#ffffff]">Meet all the heroes from the field</h1>
+                            <p class="font-medium text-[16px] text-[#ffffffab] mt-[10px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
                     </div> 
-                    </div>
-                  </div>
+                </div>
+                <div class="lg:hidden mt-[16px] bg-black  p-[32px] h-[165px] rounded-2xl translate-x-0 bottom-[32px] right-[32px]">
+                    <h1 class="font-extrabold text-[24px] text-[#ffffff]">Meet all the heroes from the field</h1>
+                    <p class="font-medium text-[16px] text-[#ffffffab] mt-[10px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
             </div>
         <!-- Hero Section End -->
     </section>
+    <!-- Navber and Hero Section End -->
 
     <!-- Main Section Start -->
-    <main>
+    <main class="container mx-auto">
+        <!-- Professional Hockeys Club Start -->
+            <section class="mb-[130px]">
+                <div class=" text-center py-[32px] border-dashed border-r-0 border-l-0 border-2 border-[#13131815]">
+                    <h1 class="font-extrabold text-[36px]">Professional Hockeys Club</h1>
+                    <p class="font-medium text-[16px] text-[#1313187e]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                </div>
+                <div class="lg:flex mt-[48px] mx-[37px] mb-[100px]">
+                    <div class="flex justify-center mb-[24px]">
+                        <div class="text-center">
+                            <div class="radial-progress text-[#FF4240] w-[120px] h-[120px]" style="--value:87;" role="progressbar">87%</div>
+                            <h2 class="font-semibold text-[20px] text-[#131318]">Prayer Facility</h2>
+                            <p class="font-normal text-[16px] text-[#1313189f] ">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center mb-[24px]">
+                        <div class="text-center">
+                            <div class="radial-progress text-[#49D293] w-[120px] h-[120px]" style="--value:95;" role="progressbar">90%</div>
+                            <h2 class="font-semibold text-[20px] text-[#131318]">Experienced Coach</h2>
+                            <p class="font-normal text-[16px] text-[#1313189f] ">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center mb-[24px]"> 
+                        <div class="text-center">
+                            <div class="radial-progress text-[#FFB546] w-[120px] h-[120px]" style="--value:90;" role="progressbar">90%</div>
+                            <h2 class="font-semibold text-[20px] text-[#131318]">Senior Player</h2>
+                            <p class="font-normal text-[16px] text-[#1313189f] ">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center mb-[24px]">
+                        <div class="text-center">
+                            <div class="radial-progress text-[#4C8DF1] w-[120px] h-[120px]" style="--value:80;" role="progressbar">80%</div>
+                            <h2 class="font-semibold text-[20px] text-[#131318]">Training Ground</h2>
+                            <p class="font-normal text-[16px] text-[#1313189f] ">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Professional Hockeys Club End -->
 
     </main>
-    <!-- Main Section End -->
+    <!-- Main Section End -->c
 
     <!--Footer Section Start -->
     <footer>
